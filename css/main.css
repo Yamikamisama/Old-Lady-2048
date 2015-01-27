@@ -64,16 +64,19 @@ h1.title {
     #makeyourown { text-align: center;background: #bbada0;color: white; border-radius: 3px; padding: 10px; }
     #makeyourown a { color: white; }
 
+
 .scores-container {
-  float: right;
+  position: absolute;
+  left: 80%;
+  top: -9%;
   text-align: right; }
 
 .score-container, .best-container {
   position: relative;
   display: inline-block;
   background: #bbada0;
-  padding: 15px 25px;
-  font-size: 25px;
+  padding: 4px 25px 10px 25px;
+  font-size: 15px;
   height: 25px;
   line-height: 47px;
   font-weight: bold;
@@ -81,10 +84,11 @@ h1.title {
   color: white;
   margin-top: 8px;
   text-align: center; }
-  .score-container:after, .best-container:after {
+
+.score-container:after, .best-container:after {
     position: absolute;
     width: 100%;
-    top: 10px;
+    top: 5px;
     left: 0;
     text-transform: uppercase;
     font-size: 13px;
@@ -113,6 +117,18 @@ h1.title {
 
 .best-container:after {
   content: "Best"; }
+
+@media only screen and (min-width : 320px) and (max-width : 520px) {
+  .score-container {
+    position: absolute;
+    left: 40px;
+    top: -8px;
+    text-align: center; }
+  
+  .score-container:after {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0; } }
 
 p {
   margin-top: 0;
