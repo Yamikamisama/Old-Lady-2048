@@ -32,3 +32,8 @@ Horse – "She's dead, of course."
 * GitHub: https://github.com/cen10
 * LinkedIn: https://www.linkedin.com/pub/courtney-nilan/8/160/902
 * Email: cnilan@gmail.com
+
+####Chris Coles
+* GitHub: https://github.com/chrisrcoles
+* LinkedIn: https://www.linkedin.com/in/chrisrcoles
+* Email: cryan.coles@gmail.com
