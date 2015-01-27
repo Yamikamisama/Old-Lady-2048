@@ -9,14 +9,10 @@ html, body {
 
 .row {margin-left:0px; margin-right:0px;}
 
-#uvt_box { margin-top: 30px; }
-
-.game-intro {text-align:center;}
-
 .heading h1 {padding-top:25px;padding-bottom:25px; text-align: center; }
 
 @media (max-width:500px) {
-  #uvt_box { margin-top: 20px !important; }
+
   .padsm { padding-top:30px;}
   .heading h1 {padding-top:0px;padding-bottom:0px;}
   .col-sm-8 {
@@ -530,27 +526,6 @@ hr {
 .game-explanation {
   margin-top: 40px; }
 
-.sharing {
-  margin-top: 80px;
-  text-align: center; }
-  .sharing > iframe, .sharing > span, .sharing > form {
-    display: inline-block;
-    vertical-align: middle; }
-
-@media screen and (min-width: 521px) {
-
- .sharing {
-
-  -moz-transform: scale(2);
-  -webkit-transform: scale(2);
-  -o-transform: scale(2);
-  -ms-transform: scale(2);
-  transform: scale(2);
-
-  }
-
-}
-
 @media screen and (max-width: 520px) {
   html, body {
     font-size: 15px; }
@@ -742,4 +717,4 @@ hr {
     margin: 20px auto; }
   .tile .tile-inner {
     font-size: 35px; }
-
+}
